@@ -1,0 +1,16 @@
+
+.venv/
+__pycache__/
+*.py[cod]
+
+# Generated cryptographic keys and local secrets
+keys/
+*.pem
+.env
+.env.*
+!.env.example
+
+# Test and editor files
+.pytest_cache/
+.vscode/
+.DS_Store
